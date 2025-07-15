@@ -1,0 +1,103 @@
+I am redesigning and improving the structure and visual layout of an existing website: https://flowinternationalgroup.com/
+
+This is a landing site for an insurance agency called **Flow International Group**, which recruits agents to sell life insurance products. The current site contains all the needed information (company explanation, benefits, how to join, training, commissions), but it is visually cluttered, too long, and not modern.
+
+Please help me build a **cleaner and more modern version** of the same page using **React + Tailwind CSS**, with good organization and clear UI.
+
+You can extract and reuse the content from the current page (https://flowinternationalgroup.com/), but organize it using the following structure:
+
+---
+
+🔹 **Structure**
+
+1. **Sticky Topbar** (always visible at top)
+   - Logo or company name: "Flow"
+   - Language switcher:  
+     [🌍 Español] <switch> [English]  
+     – This switch controls the language of all the content displayed on the site.
+   - "Join Us" button: takes the user to a separate "Join Us" page with a form
+
+2. **Sticky Sidebar (collapsible)**  
+   Triggered by a hamburger icon on the top-left. When opened, it shows links to scroll to sections of the homepage:
+   - Home (Hero Section)
+   - Benefits
+   - How It Works
+   - Requirements
+   - Commission Plan
+   - Training & Support
+   - Testimonials (opens a separate page)
+   - FAQ (opens a separate page)
+
+3. **Hero Section (Home)**  
+   - Big headline: “Build Your Career in Life Insurance”
+   - Subtext: briefly summarize company mission and value proposition for new agents
+   - CTA button: “Apply Now”
+
+4. **Benefits Section**  
+   - Use content from the current site
+   - Display with clean icons or columns:
+     - Live leads
+     - High commissions (50%–100%)
+     - No medical exam
+     - Remote work
+     - Free training
+
+5. **How It Works Section**
+   - Show 4 steps: Apply → Train → Sell → Get paid
+   - Each with an icon or illustration
+
+6. **Requirements Section**
+   - Minimum age
+   - ID / documentation
+   - Language skills
+   - Internet access
+
+7. **Commission Plan Section**
+   - Add a visual table showing potential commission percentages
+   - Include sample earnings
+
+8. **Training & Support Section**
+   - Overview of onboarding help, training modules, support systems
+
+9. **Testimonials Page (Separate)**  
+   - This will be a full page showing video or text testimonials from agents
+   - Pull examples from current site or use placeholders
+
+10. **FAQ Page (Separate)**  
+   - Display common questions such as:
+     - Do I need experience?
+     - How fast do I get paid?
+     - Is it remote?
+     - Do I keep my clients?
+
+11. **Join Us Page**
+   - Form fields:
+     - Full Name
+     - Native Language
+     - Email
+     - Phone
+     - How did you find us?
+   - Buttons:
+     - Back → goes to homepage
+     - Next → submits the form (use placeholder handler)
+   - Include footer with “Privacy Policy” and “Terms of Service”
+
+12. **AI Agent Chat Button**
+   - Floating button at bottom-right of all pages
+   - When clicked, opens a chat interface where users can ask questions
+   - For now, use a placeholder message or dummy logic (we will integrate with AI later)
+
+---
+
+💡 **Style Notes**
+- Use Tailwind CSS for styling
+- Keep design clean, modern, mobile responsive
+- Use icons and sections to organize content visually
+- Everything should work in both languages (EN/ES)
+- Use scroll behavior for sidebar links
+- Use functional React components
+- File structure should be organized and scalable
+
+---
+
+Build the base project and scaffold all the sections above using placeholder content where needed. We'll connect real logic later.
